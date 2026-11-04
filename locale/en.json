@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Account Meter",
+    "description": "Shows the signed-in DeepSeek account balance and the total tokens consumed, below the message composer."
+  }
+}
