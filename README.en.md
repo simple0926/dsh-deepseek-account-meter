@@ -13,9 +13,7 @@ A DeepSeek Harness (DSH) plugin that shows the signed-in DeepSeek account's **wa
 Balance ¥49.22  ·  Total 1.55B tokens
 ```
 
-<!-- Screenshot placeholder: add docs/screenshots/composer.png, then uncomment
 ![Composer dock](docs/screenshots/composer.png)
--->
 
 ## Features
 

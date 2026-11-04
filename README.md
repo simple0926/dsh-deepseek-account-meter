@@ -13,9 +13,7 @@
 余额 ¥49.22  ·  累计 1.55B tokens
 ```
 
-<!-- 截图占位：发布时把界面截图放到 docs/screenshots/composer.png，然后把下面这行取消注释
 ![界面示意](docs/screenshots/composer.png)
--->
 
 ## 功能
 
