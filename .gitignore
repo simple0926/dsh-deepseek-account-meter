@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# release assets (uploaded to GitHub Releases, never committed)
+dist/
+release/
+*.tar.gz
+*.zip
+SHA256SUMS
+
+# dependencies / editor / logs
+node_modules/
+.vscode/
+.idea/
+*.log
