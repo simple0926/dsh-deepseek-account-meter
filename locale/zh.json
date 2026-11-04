@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 余额与用量",
+    "description": "在消息输入框下方实时显示当前 DeepSeek 账户余额与累计 token 消耗。"
+  }
+}
