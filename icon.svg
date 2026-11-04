@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DeepSeek account meter">
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#2f4ded"/>
+  <path d="M22 15.5 L32 27 L42 15.5" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 27 V49" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M22.5 32.5 H41.5" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M22.5 39.5 H41.5" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="48.5" cy="46" r="4.2" fill="#ffd166"/>
+  <circle cx="40.5" cy="52.5" r="2.6" fill="#ffd166" opacity="0.72"/>
+</svg>

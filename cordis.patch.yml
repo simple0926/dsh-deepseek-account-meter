@@ -1,0 +1,3 @@
+- insert:
+    - id: deepseek-account-meter
+      name: '@local/dsh-deepseek-account-meter'

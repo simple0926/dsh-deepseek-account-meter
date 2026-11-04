@@ -1,0 +1,58 @@
+{
+  "name": "@local/dsh-deepseek-account-meter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shows the DeepSeek account balance and total token consumption below the composer of DeepSeek Harness.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "balance",
+    "token-usage",
+    "billing"
+  ],
+  "author": "syler lu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple0926/dsh-deepseek-account-meter.git"
+  },
+  "homepage": "https://github.com/simple0926/dsh-deepseek-account-meter#readme",
+  "bugs": {
+    "url": "https://github.com/simple0926/dsh-deepseek-account-meter/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "docs/**/*.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
